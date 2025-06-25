@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 3em;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .shop {
+            text-align: center;
+        }
+        .shop img {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .shop a {
+            display: block;
+            margin-top: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        hr {
+            margin-top: 50px;
+            border: 0;
+            border-top: 2px solid #000;
+        }
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: "Courier New", monospace;
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Shopingkun!</h1>
+
+    <div class="container">
+        <div class="shop">
+            <img src="https://play-lh.googleusercontent.com/JnBKVsxWhMEXOLFjDvVZIxTxrVFEbYr8SAXX1zYNZfDaPXPJWqQQaARPrJdbdCYmr8qE" alt="Online Shop 1">
+            <a href="https://www.watsons.co.th/th/" target="_blank">watsons</a>
+        </div>
+
+
+        <div class="shop">
+            <img src="data:image/jpeg;base64,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" alt="Online Shop 2">
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwiH3ZnpgIyOAxUOomYCHQzNBykYACICCAEQABoCc20&co=1&gclid=EAIaIQobChMIh92Z6YCMjgMVDqJmAh0MzQcpEAAYASAAEgJyd_D_BwE&ohost=www.google.com&cid=CAASJeRozCriAt0xNsGjiei2XZUulmPGBYIWnaXFXa4EU70opuK_A4I&category=acrcp_v1_40&sig=AOD64_1M9G2uWTTc5hR2HdwCn-BmHaPlqg&q&adurl&ved=2ahUKEwiYlJXpgIyOAxVw1zgGHa69CCQQ0Qx6BAgOEAE" target="_blank">konvy</a>
+        </div>
+
+
+
+
+
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        © chanistha 2025
+    </div>
+
+</body>
+</html>
