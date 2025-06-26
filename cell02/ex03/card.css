@@ -1,0 +1,107 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #7a7878;
+    margin: auto;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: rgb(252, 254, 251);
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.login {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.role {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.skills {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.skills ul {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.quote {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.contact-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: #db8484;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
