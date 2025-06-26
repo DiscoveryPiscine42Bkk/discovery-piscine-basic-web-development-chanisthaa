@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax1 {
+    background-image: url(   https://media.istockphoto.com/id/486869012/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B9%81%E0%B8%9E%E0%B8%B0%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%A3%E0%B8%B2.jpg?s=612x612&w=0&k=20&c=c3MaHxhELfsV5Fg_s_YLwu3dUqYxYttEY3NWxsmJ3UA=  );
+}
+
+.parallax2 {
+    background-image: url(  https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1iDLXlSr3_HqHg0cNRv1OaT1r6Pnac8Nmu_Aqp4y4KuSRi9JobH9veuqSgstmmM4chwmiaguv2M-7IiRaIozoFCOpR2-ohpxcWxXXUfi6r4DFqnjJdtjqRpZssRFeDLUd6B1s1ZUvZd42/s1600/sheep%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99.jpg   );
+    
+}
+
+.black {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-text-stroke: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+.message2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.message3 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-text-stroke: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    text-decoration: underline rgb(0, 0, 0);
+}
