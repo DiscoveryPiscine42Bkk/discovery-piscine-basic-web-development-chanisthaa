@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RUSH</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+  <style>
+    /* พื้นหลังเป็นวิดีโอหรือภาพเคลื่อนไหว */
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+    }
+
+    .bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+
+    .content-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+    }
+
+    .btn-image {
+      border: none;
+      background: none;
+      padding: 0;
+    }
+
+    .btn-image img {
+      width: 150px;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .btn-image img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ภาพพื้นหลังเคลื่อนไหว (อาจใช้วิดีโอหรือ gif) -->
+  <video autoplay muted loop class="bg-video">
+    <source src="your-animation.mp4" type="video/mp4">
+    <!-- fallback -->
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="content-center">
+    <h1 class="mb-4">สวัสดี ยินดีต้อนรับ!</h1>
+    <p class="mb-4">คุณอยากรู้จักเราไหม เลือกสักคนสิ :</p>
+    
+    <a href="file:///home/csmitben/Desktop/chanistha/port/resume1%20%20por%20.html" class="btn-image m-2">
+      <img src="chanistha.png" alt="Chanistha">
+    </a>
+    
+    <a href="file:///home/nsamdaen/Desktop/port/port%20kt.html#contact" class="btn-image m-2">
+      <img src="niracha.png" alt="Niracha">
+    </a>
+  </div>
+
+</body>
+
+</html>
